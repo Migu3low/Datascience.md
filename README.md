@@ -1,6 +1,6 @@
-# Datascience.md
-(Learning path)
+Readme.md
 #***:+1: Python***
+(Learning path)
 
 ### ***Operadores matematicos***
 Suma Resta Multiplicacion Division Potenciacion Residuo
@@ -39,4 +39,7 @@ if edad > 17:
 else:
     print("Eres menor de edad")
 ```
+Ctrl + K + C - Comenta todo el código seleccionado.
+Ctrl + K + U - Descomenta todo el código seleccionado.
+Para emoji Inicio + .
 
