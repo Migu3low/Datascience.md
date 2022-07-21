@@ -1,6 +1,6 @@
 # Datascience.md
 (Learning path)
-## ***:+1: Python basics***
+#***:+1: Python***
 
 ### ***Operadores matematicos***
 Suma Resta Multiplicacion Division Potenciacion Residuo
@@ -31,3 +31,12 @@ Estas reglas son aplicadas al lenguaje Python, en otros lenguajes puede haber ot
 
 ### ***Operadores logicos y de comparacion***
 Conversor de monedas
+Aplicacion de condicionales
+```
+edad = int(input("Escribe tu edad: "))
+if edad > 17:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+```
+
