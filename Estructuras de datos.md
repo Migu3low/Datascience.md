@@ -33,6 +33,48 @@ Se trabaja con los indices y parentesis (colon) [S:S:S] :point_right: (Stat, Sto
 
 ### Enter point
 ``` if _name_ == "_main_":```  Se indica a Python el inicio del programa .
+## Ejemplo Palindromo
+```
+def palindromo(palabra):
+    palabra = palabra.replace(" ", "")
+    palabra = palabra.lower()
+    palabra_invertida = palabra[::-1]
+    if palabra == palabra_invertida:
+        return True
+    else:
+        return False
+
+
+def run():
+    palabra = input("Escribe una palabra: ")
+    es_palindromo = palindromo(palabra)
+    if es_palindromo == True:
+        print("Es palindromo")
+    else:
+        print("No es palindromo")
+
+if __name__ == "__main__":
+    run()   
+```
+## Ciclo While For
+Realizar codigo para comporbar que un numero es primo:
+```
+def run():
+    number = int(input("Escribe un numero: "))
+    for i in range(2, number+1):
+        if number%i == 0:
+            if i < number:
+                print("No es numero primo")
+                break
+            else:
+                print("Es numero primo")
+        else:
+            continue
+  
+if __name__ == "__main__":
+    run()
+  
+```
 
 
 
