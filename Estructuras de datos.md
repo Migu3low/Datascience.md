@@ -75,8 +75,16 @@ if __name__ == "__main__":
     run()
   
 ```
-
-
-
+Solución con lambda:
+```
+def is_prime(num):
+    nums_range = list(range(1, num+1))
+    val_num = True if len(list(filter(lambda x: num%x==0, nums_range))) == 2 else False
+    print(val_num)
+    
+if __name__ == "__main__":
+    num = int(input("Escribe el numero: "))
+    is_prime(num)
+```
 
 
