@@ -26,3 +26,21 @@ Instalando Anaconda Distribution desde terminal:
     ``` conda update -all```
 - Para crear nuevos ambientes
      ```$ /home/charlesritchea/anaconda3/bin/conda create -n pv python=3.6 anaconda```
+
+### _Crear Actualizar y Eliminar Ambientes_
+- Listar los ambientes creados: ``` conda env list```
+- Crear ambiente(incluir libreria _pandas_): ``` conda create --name py35 python pandas```
+- Activar ambiente: ``` conda activate py35```
+- Ver las versiones instaladas ```conda list```
+- Para cambiar el nombre ```conda create --name py310 -- copy --clone py35
+- Para eliminar primero desactivar: ```conda deactivate``` luego se remueve: ```conda env remove -n [AMBIENTE]```
+
+Canales para instalar paquetes:
+- Instalar con un canal ```conda install --channel conda-forge boltons```
+- Ver la revision del ambiente: ```conda list --revision```
+- Exportar un ambiente: ```conda env export --no-builds // conda env export --from-history --file environment.yml```
+- Instalar el archivo: ```conda install create --file <nombre del archivo>```
+
+### Mamba
+-Instalar: ```conda install --channel conda-forge mamba```
+
