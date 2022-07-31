@@ -33,3 +33,81 @@ _Lenguajes_
 > - Java: Android, Server Side .java
 > - JavaScript: interpretado, prototipos OO, pensados para la web .js
 > - IDE Visual Studio Code.
+
+## **Diagramas de modelado**
+
+_OMT Object Modeling Techniques (1991)_
+- Basado en objetos. Recuadro con atributos y métodos
+
+_UML Unified Modeling Lenguage (1997)_
+- Unificar las bases del OMT, modelar clases de usos, interaccionies, estados
+
+## **Objetos**
+
+Modelar problemas e identificar los objetos
+- Físicos (User) o conceptuales (Session)
+- Propiedades (atributos)
+- Comportamientos (acciones)
+
+## **Clase**
+
+_Modelo, molde, módulo 👉 Abstracción _
+
+## ➗**Modularidad**
+
+División en partes más pequeñas.
+- Reutilizar
+- Evitar colapsos
+- Mantenible
+- Legibilidad
+- Resolución rápida de problemas
+- Archivos diferentes
+
+## **Caso de aplicación**
+
+Identificar objetos UBER:
+
+- Celular 
+- Punto A y Punto B // Ruta
+- Uber X, Uber pool, Uber Black, Uber Van
+- Usuario //, Driver
+- Precio // card // paypal // cash
+- Trip
+
+Plasmarlo en UML:
+
+- Rectangulo: Identidad / Estado / Comportamiento ()
+- Java
+```
+class Person{
+   String name = "";
+   void walk() {}  
+ } 
+```
+- Python
+```
+class Person:
+   name = ""
+   def walk():
+     pass
+```
+- JavaScript
+```
+Person.prototype.walk = function(){}
+```
+- PHP
+```
+class Person{
+  $name = "";
+  funtion walk(){}
+}
+```
+
+
+
+
+
+
+
+
+
