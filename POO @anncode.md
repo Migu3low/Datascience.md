@@ -103,6 +103,13 @@ class Person{
 }
 ```
 
+## Herencia
+
+_DRY: Don´t repeat yourselft_
+Lineas de codigo duplicada. Aplica a toda pieza. 
+Reutilización nuevas clases a partir de otras. Clase más general. 
+Jerarquía: Padre (Superclase)e hijo (subclases)
+Tener una abstracción general con elementos en común.
 
 
 
