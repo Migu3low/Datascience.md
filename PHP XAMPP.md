@@ -49,4 +49,8 @@ service --status-all
 ```
 sudo apt install libapache2-mod-phpX.X
 ```
+11. Solución de Retax Master para WSL
+```
+$ sudo /etc/init.d/apache2 start
+```
 
