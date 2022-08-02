@@ -202,6 +202,15 @@ class Car {
 
 }
 ```
+## Encapsulamiento
+Es hacer que los datos sean inviolables, inalterable o hacer que se esconda, cuando se le asigne un Modificador de Acceso.
+.
+Modificadores de Acceso:
+
+Public: Es el mas permisivos de todos, Accede a todo.
+Protected: Podrá ser accedido por la clase, paquetes y subclases.
+Default: Permite el acceso a nivel de clses de internas y paquetes (No podremos ver las herencias si ha detener (Osea subclases))
+Private: Solo podrá ser modificado dentro de la clase.
 
 
 
