@@ -53,4 +53,9 @@ sudo apt install libapache2-mod-phpX.X
 ```
 $ sudo /etc/init.d/apache2 start
 ```
+12. Iniciar el host PHP
+```
+$ php -S localhost:8000
+```
+
 
