@@ -103,7 +103,7 @@ class Person{
 }
 ```
 
-## Herencia
+## 👇: Herencia
 
 _DRY: Don´t repeat yourselft_
 Lineas de codigo duplicada. Aplica a toda pieza. 
@@ -111,6 +111,73 @@ Reutilización nuevas clases a partir de otras. Clase más general.
 Jerarquía: Padre (Superclase)e hijo (subclases)
 Tener una abstracción general con elementos en común.
 
+### 🌠Método Constructor e Instanciar
+Dar vida a los objetos en memoria cada lenguaje tiene sus palabras reservadas:
+_this or new (Java, JavaScript and PHP) or selft(Python)_
+
+1. Se inicia el constructor, parámetros obligatorios para crear la clase.
+2. Se definene éstos parámetros (pasar de manera global a local con **_This_**)
+### Ejemplo en Java en la clase Car:
+```
+package Java;
+
+public class Car {
+    Integer id;
+    String license;
+    Account driver;
+    Integer passenger;
+
+    public Car(String license, Account driver) {
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar() {
+        System.out.println("License: " + license + " Name: " + driver.name);
+    }
+}
+```
+Ahora en la Clase Main se llama la clase con new:
+```
+package Java;
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo");
+        Car car = new Car("AMQ235", new Account("Miguel Sanchez", "102388879"));
+        car.passenger = 5;
+        car.printDataCar();
+    }
+}
+```
+
+### Ejemplo en Python clase Account:
+
+El constructor con __init__ y parametros con _self._:
+```
+class Account:
+    id = int
+    name = str
+    document = str
+    email = str
+    password = str
+
+    def __init__(self, name, document):
+        self.name = name
+        self.document = document
+```
+EL main se ve así:
+```
+from car import Car
+from account import Account
+
+if __name__ == "__main__":
+    print("Hola Mundo")
+
+    car = Car("MPW114", Account("Miguel Sanchez", "1023887888") )
+    print(vars(car))
+    print(vars(car.driver))
+```
 
 
 
