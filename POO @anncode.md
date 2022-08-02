@@ -178,6 +178,31 @@ if __name__ == "__main__":
     print(vars(car))
     print(vars(car.driver))
 ```
+### Ejemplo en PHP:
+Se utiliza la herencia con _require_once_ el constructor con _ _construct()_
+Luego para la herencia se utiliza _parent::_construct()_
+
+```
+<?php
+require_once("account.php");
+class Car {
+    public $id;
+    public $license;
+    public $driver;
+    public $passenger;
+
+    public function _construct($license, $driver) {
+        $this->license = $license;
+        $this->driver = $driver;
+    }
+
+    public function printDataCar(){
+        echo "Licensi: $this->license Driver: " .$this->driver;
+    }
+
+}
+```
+
 
 
 
