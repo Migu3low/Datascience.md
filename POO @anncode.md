@@ -202,7 +202,7 @@ class Car {
 
 }
 ```
-## Encapsulamiento
+## 🧭 Encapsulamiento
 Es hacer que los datos sean inviolables, inalterable o hacer que se esconda, cuando se le asigne un Modificador de Acceso.
 .
 Modificadores de Acceso:
@@ -212,7 +212,45 @@ Protected: Podrá ser accedido por la clase, paquetes y subclases.
 Default: Permite el acceso a nivel de clses de internas y paquetes (No podremos ver las herencias si ha detener (Osea subclases))
 Private: Solo podrá ser modificado dentro de la clase.
 
+Usar variable Private con Getter and Setter
+```
+class Car {
+    Integer id;
+    String license;
+    Account driver;
+    private Integer passegenger;
 
+    public Car(String license, Account driver){
+        this.license = license;
+        this.driver = driver;
+    }
+
+    void printDataCar() {
+        if(passegenger != null){
+            System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passegenger);
+        }
+        
+    }
+
+
+    public Integer getPassenger(){
+        return passegenger;
+    }
+
+    public void setPassenger(Integer passenger) {
+        if(passenger == 4){
+            this.passegenger = passenger;
+        }else{
+            System.out.println("Necesitas asignar 4 pasajeros");
+        }
+    }
+    
+}
+```
+
+## Polimorfismo
+
+Metodos con el mismo nombre pero diferente comportamiento.
 
 
 
