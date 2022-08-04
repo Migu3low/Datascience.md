@@ -96,10 +96,10 @@ def run():
     for worker in all_Platzi_workers:
          print(worker) 
             
-    # for worker in all_mayors:
+    for worker in all_mayors:
          print(worker)
 
-    # for worker in all_python_devs:
+    for worker in all_python_devs:
           print(worker)
 
 if __name__ == '__main__':
