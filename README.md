@@ -43,3 +43,28 @@ Ctrl + K + C - Comenta todo el código seleccionado.
 Ctrl + K + U - Descomenta todo el código seleccionado.
 Para emoji Inicio + .
 
+## Creación de ambiente Virtual:
+
+`python3 -m venv nombre_venv`
+
+- Usualmente el nombre del ambiente virtual es venv.
+
+Activación del ambiente virtual:
+
+- Windows:
+
+`.\venv\Scripts\activate`
+
+- Unix o MacOS:
+
+`source venv/bin/activate`
+
+Desactivar el ambiente virtual:
+
+`deactivate`
+
+Crear un alias en linux/mac:
+
+`alias nombre-alias="comando"`
+
+`alias avenv=“source venv/bin/activate”``
