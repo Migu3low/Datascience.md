@@ -1,5 +1,9 @@
+from __future__ import division
+
+
 def divisors(num):
-    divisors = [i for i in range(1, num + 1) if num % i == 1]
+    div = list([i for i in range(1, num + 1) if num % i == 0])
+    return div
 
 def run():
     num = int(input("Ingresa un numero: "))
