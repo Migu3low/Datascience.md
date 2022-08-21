@@ -20,9 +20,13 @@ Creada en 2008 100 % open source por Wes McKenney sobre NumPy
 
 ## NumPy
 
-## NumPy Array
+### NumPy Array
 
 Estructura indexada central, acceso a muchos archivos.
+
+Tipos de datos:
+
+
 
 
 
