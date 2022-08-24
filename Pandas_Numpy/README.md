@@ -24,11 +24,11 @@ Creada en 2008 100 % open source por Wes McKenney sobre NumPy
 
 Estructura indexada central, acceso a muchos archivos.
 
-Tipos de datos: int64 o int8 o int_ float_ string_ bool_ // ***.dtype** o ***.astype***
-Dimensiones: Array 👉 1, Matriz 👉 2, Tensor 👉 + 3 // ***.ndim*** asignar la dimension: ***.ndmin*** reducir la dimension ***np.squeeze***
-Creacion de arrays: ***.arange() .linspace np.zeros() np.eye() np.random.rand() np.random.randint()*** 
-Shape Reshape: Ver la dimensioes y redimensionar respectivamente C lenguaje C F Fortran A aleatoreo
-Funciones principales:
+- Tipos de datos: int64 o int8 o int_ float_ string_ bool_ // ***.dtype** o ***.astype***
+- Dimensiones: Array 👉 1, Matriz 👉 2, Tensor 👉 + 3 // ***.ndim*** asignar la dimension: ***.ndmin*** reducir la dimension ***np.squeeze***
+- Creacion de arrays: ***.arange() .linspace np.zeros() np.eye() np.random.rand() np.random.randint()*** 
+- Shape Reshape: Ver la dimensioes y redimensionar respectivamente C lenguaje C F Fortran A aleatoreo
+- Funciones principales:
 
 
 
